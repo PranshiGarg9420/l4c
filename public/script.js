@@ -1,4 +1,3 @@
-const JSONTransport = require("nodemailer/lib/json-transport");
 
 const socket = io("/");
 
