@@ -122,7 +122,7 @@ $(function () {
             dataType: "json", 
             contentType: "applicaton/json",
             success: function(result){alert("Invite sent")},
-            error: function(result){console.log(result.response.json)}
+            error: function(result){console.log(result.responseJSON)}
         })
     })
 
